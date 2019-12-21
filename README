@@ -12,3 +12,7 @@ The rules of the game are:
 Each cell's neighborhood is the 8 cells immediately around it (i.e. Moore Neighborhood). The universe is infinite in both the x and y dimensions and all cells are initially dead - except for those specified in the arguments.
 
 Wiki article: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+## Howto run
+* Install Dotnet SDK (2.2+)
+* Run: `dotnet run <number of generations>` - for instance `dotnet run 4`
